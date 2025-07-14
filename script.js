@@ -211,12 +211,13 @@ function populateProjects() {
         ? '<span class="text-xs bg-blue-100 text-blue-800 px-2 py-1 rounded ml-2">In Progress</span>'
         : '<span class="text-xs bg-gray-100 text-gray-800 px-2 py-1 rounded ml-2">Completed</span>';
 
+    // Use image if available, otherwise fallback to a placeholder
+    const projectVisual = project.image
+      ? `<img src="${project.image}" alt="${project.title}" class="h-48 w-full object-cover" />`
+      : `<div class="h-48 w-full bg-gray-200 flex items-center justify-center"><span class="text-gray-400">No Image</span></div>`;
+
     projectCard.innerHTML = `
-      <div class="h-48 bg-gradient-to-br ${
-        project.gradient
-      } flex items-center justify-center">
-        <i class="${project.icon} text-white text-4xl"></i>
-      </div>
+      ${projectVisual}
       <div class="p-6">
         <h3 class="text-lg font-semibold mb-2">${
           project.title

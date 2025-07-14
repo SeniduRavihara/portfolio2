@@ -16,7 +16,7 @@ window.projectsData = [
     ],
     category: "Web Application",
     status: "Live",
-    icon: "fas fa-store",
+    image: "assets/projects/srilankabusinesslk.png",
     gradient: "from-blue-500 to-purple-600",
     features: [
       "Business Listings with detailed information",
@@ -48,7 +48,7 @@ window.projectsData = [
     ],
     category: "Desktop Application",
     status: "Completed",
-    icon: "fab fa-youtube",
+    image: "assets/projects/desktop.png",
     gradient: "from-red-500 to-pink-600",
     features: [
       "Smooth vertical scrolling text animation",
@@ -80,7 +80,7 @@ window.projectsData = [
     ],
     category: "Event Management",
     status: "Live",
-    icon: "fas fa-trophy",
+    image: "assets/projects/roadtolegacy.png",
     gradient: "from-green-500 to-teal-600",
     features: [
       "Delegate registration & management",
@@ -112,7 +112,7 @@ window.projectsData = [
     ],
     category: "AI Application",
     status: "Completed",
-    icon: "fas fa-project-diagram",
+    image: "assets/projects/airootchat.png",
     gradient: "from-purple-500 to-indigo-600",
     features: [
       "Branching conversations from any message",
@@ -143,7 +143,7 @@ window.projectsData = [
     ],
     category: "Automation Tool",
     status: "Live",
-    icon: "fas fa-certificate",
+    image: "assets/projects/certificate-genarator.png",
     gradient: "from-yellow-500 to-orange-600",
     features: [
       "Bulk certificate generation from Excel",
@@ -174,7 +174,7 @@ window.projectsData = [
     ],
     category: "Coding Platform",
     status: "In Development",
-    icon: "fas fa-code",
+    image: null,
     gradient: "from-indigo-500 to-purple-700",
     features: [
       "Multi-language code editor with IntelliSense",
