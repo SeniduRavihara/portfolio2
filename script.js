@@ -234,12 +234,16 @@ function populateProjects() {
             .join("")}
         </div>
         <div class="flex gap-2">
-          <a href="${
+          ${
             project.liveUrl
-          }" target="_blank" rel="noopener noreferrer" class="flex-1 text-center px-3 py-2 border border-gray-300 text-gray-700 text-sm rounded hover:border-blue-600 hover:text-blue-600 transition-colors">
+              ? `<a href="${
+                  project.liveUrl
+                }" target="_blank" rel="noopener noreferrer" class="flex-1 text-center px-3 py-2 border border-gray-300 text-gray-700 text-sm rounded hover:border-blue-600 hover:text-blue-600 transition-colors">
             <i class="fas fa-external-link-alt mr-1"></i>
             ${project.status === "In Development" ? "Preview" : "Live Demo"}
-          </a>
+          </a>`
+              : ""
+          }
           <a href="${
             project.githubUrl
           }" target="_blank" rel="noopener noreferrer" class="flex-1 text-center px-3 py-2 border border-gray-300 text-gray-700 text-sm rounded hover:border-blue-600 hover:text-blue-600 transition-colors">

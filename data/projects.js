@@ -174,7 +174,7 @@ window.projectsData = [
     ],
     category: "Coding Platform",
     status: "In Development",
-    image: null,
+    image: "assets/projects/hackathon.png",
     gradient: "from-indigo-500 to-purple-700",
     features: [
       "Multi-language code editor with IntelliSense",
