@@ -158,6 +158,7 @@ window.projectsData = [
     duration: "1.5 months",
     role: "Full-Stack Developer",
   },
+  
   {
     id: 6,
     title: "Hackathon Plus",
