@@ -8,6 +8,45 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
 </head>
 <body>
-    
+    <!-- Header -->
+    <header class="fixed top-0 left-0 right-0 bg-white/95 backdrop-blur-sm border-b border-gray-200 z-50">
+        <div class="container mx-auto px-4 py-4">
+            <div class="flex items-center justify-between">
+                <div>
+                    <h1 class="text-xl font-bold text-gray-900">Alex Johnson</h1>
+                    <p class="text-sm text-gray-600">Full-Stack Developer</p>
+                </div>
+
+                <!-- Desktop Navigation -->
+                <nav class="hidden md:flex space-x-8">
+                    <a href="#home" class="nav-link text-sm font-medium transition-colors hover:text-blue-600 text-blue-600">Home</a>
+                    <a href="#about" class="nav-link text-sm font-medium transition-colors hover:text-blue-600 text-gray-700">About</a>
+                    <a href="#education" class="nav-link text-sm font-medium transition-colors hover:text-blue-600 text-gray-700">Education</a>
+                    <a href="#skills" class="nav-link text-sm font-medium transition-colors hover:text-blue-600 text-gray-700">Skills</a>
+                    <a href="#services" class="nav-link text-sm font-medium transition-colors hover:text-blue-600 text-gray-700">Services</a>
+                    <a href="#projects" class="nav-link text-sm font-medium transition-colors hover:text-blue-600 text-gray-700">Projects</a>
+                    <a href="#contact" class="nav-link text-sm font-medium transition-colors hover:text-blue-600 text-gray-700">Contact</a>
+                </nav>
+
+                <!-- Mobile Menu Button -->
+                <button class="md:hidden p-2" id="mobile-menu-btn">
+                    <i class="fas fa-bars text-xl"></i>
+                </button>
+            </div>
+
+            <!-- Mobile Navigation -->
+            <nav class="md:hidden mt-4 pb-4 border-t border-gray-200 hidden" id="mobile-menu">
+                <div class="flex flex-col space-y-2 pt-4">
+                    <a href="#home" class="mobile-nav-link text-left px-4 py-2 text-sm font-medium transition-colors hover:text-blue-600 text-blue-600">Home</a>
+                    <a href="#about" class="mobile-nav-link text-left px-4 py-2 text-sm font-medium transition-colors hover:text-blue-600 text-gray-700">About</a>
+                    <a href="#education" class="mobile-nav-link text-left px-4 py-2 text-sm font-medium transition-colors hover:text-blue-600 text-gray-700">Education</a>
+                    <a href="#skills" class="mobile-nav-link text-left px-4 py-2 text-sm font-medium transition-colors hover:text-blue-600 text-gray-700">Skills</a>
+                    <a href="#services" class="mobile-nav-link text-left px-4 py-2 text-sm font-medium transition-colors hover:text-blue-600 text-gray-700">Services</a>
+                    <a href="#projects" class="mobile-nav-link text-left px-4 py-2 text-sm font-medium transition-colors hover:text-blue-600 text-gray-700">Projects</a>
+                    <a href="#contact" class="mobile-nav-link text-left px-4 py-2 text-sm font-medium transition-colors hover:text-blue-600 text-gray-700">Contact</a>
+                </div>
+            </nav>
+        </div>
+    </header>
 </body>
 </html>
